@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=PT+Sans:ital,wght@0,400;1,700&family=Quicksand:wght@600&display=swap');
+:root{
+    --wildWatermelon: #ED5565;
+    --blue: #145ac9;
+    --yellow: #f2e127;
+    --black: #000000;
+    --lightBlue: #1785A7;
+    --aqua: aqua;
+    --white: white;
+    --crimson: #DC143C;
+    margin: 0; 
+}
+.html {
+    scroll-behavior: smooth;
+}
+
+/*I can also write only header, without doubt but whatever, a dot is not so much work */
+/*<div className = "headerh1">
+                        <h1>Deep Parekh 😄</h1>
+                    </div>*/
+.header{
+    background-color: var(--crimson);
+    margin: 0;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 67% 10% 10% 10% 3%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "name about skills contact .";
+
+}
+
+/*.header h1{
+    color: var(--aqua);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    padding: 16px;
+}*/
+
+.myname {
+    grid-area: auto / 1 / auto / 2;
+    color: var(--aqua);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    padding: 16px;
+}
+
+.about {
+    grid-area: about;
+    place-self: center;
+}
+
+.about a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--yellow);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about a:hover {
+    color: black;
+}
+
+.skills {
+    grid-area: skills;
+    place-self: center;
+}
+
+.skills a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--yellow);
+    font-family: 'Quicksand',  sans-serif;
+}
+
+.skills a:hover {
+    color: black;
+}
+
+.contact {
+    grid-area: contact;
+    place-self: center;
+}
+
+.contact a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--yellow);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact a:hover {
+    color: black;
+}
+/*
+
+/*<nav>
+                        <ul>
+                            <li><a href = "#about">about me</a></li>
+                            <li><a href = "#skills">skills</a></li>
+                            <li><a href = "#footer-text">contact me</a></li>
+                        </ul>
+                    </nav>*/
+/*.header ul{
+    /*If I don't write following three lines then the list items will be in reverse order like my work skills and about me 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*space dictionary website*/
+/*mongodb june 9 june 10  aasaniyu mane daya ave chhe ena par english
+
+.header li{
+    float: left;
+}
+
+.header li a {
+    /*display: inline;
+    color: var(--yellow);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    
+    padding: 30px 20px 20px 20px;
+    float: right;
+}
+/*.headernav li{
+    display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+    color: var(--yellow);
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.headernav a {
+    display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}*/

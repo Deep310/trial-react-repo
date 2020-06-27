@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.aboutMe {
+    background-color: var(--crimson);
+    height: 500px;
+    display: grid;
+    grid-template-columns: [col1] 37% [col2] 2% [col3] 5% [col4] auto [col5];
+    grid-template-rows: [row1] 10% [row2] 80% [row3] 10%;
+    grid-template-areas: 
+        ". . . ."
+        "vishay vertical . varnan"
+        ". . . .";
+}
+
+.vishay {
+    grid-area: vishay;
+    font-family: 'Dancing Script', cursive;
+    color: yellow;
+    justify-self: center;
+    align-self: center;
+    font-size: 60px;
+}
+
+.first {
+    padding-left: 30px;
+}
+
+.second {
+    padding-left: 80px;
+}
+
+.vertical {
+    border-right: 2px solid rgba(0,0,0,0.8);
+    grid-area: vertical;
+}
+
+.desc {
+    grid-area: varnan;
+    justify-self: center;
+    align-self: center;
+}
+
+.desc a {
+    text-decoration: none;
+    color: white;
+}
+.desc a:hover {
+    text-decoration: underline;
+}
+.desc p {
+    padding: 10px 10px;
+    color: aqua;
+    background-color: #252627;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 14px 12px 10px 3px #0872db;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 30px;
+    
+    
+    
+
+}

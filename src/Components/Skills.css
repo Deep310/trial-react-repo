@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+.myskills{
+    background-color: #252627;
+    display: grid;
+    grid-template-columns: [col1] 70% [col2] 30% [col3];
+    grid-template-rows: 80% 20%;
+    grid-template-areas: 
+        "actual writing"
+        "button .";
+    height: 600px;
+}
+
+.writing{
+    grid-area: writing;
+    font-family: "Dancing Script", cursive;
+    color: yellow;
+    justify-self: start;
+    align-self: center;
+    font-size: 80px;
+}
+
+.actually {
+    grid-area: actual;
+}
+
+.actually p {
+    /*color: rgb(1, 181, 252);*/
+    color: crimson;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+.container {
+    width:75%;
+    padding-left: 100px;
+}
+
+/*progress bar 1 for java */
+.progress1 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar1 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+        
+}
+  
+.progress-moved .progress-bar1 {
+    width: 90%; 
+    background-color: rgb(21, 100, 247);  
+    /*animation: progressAnimation 3s;*/
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 0%; background-color: rgb(9, 253, 253);}
+    100% { width: 50%; background-color: rgb(88, 71, 239); }
+}*/
+/*progress bar 2 for HTML */
+.progress2 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar2 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    /*transition: 0.4s linear;  
+    transition-property: width, background-color;*/    
+}
+  
+.progress-moved .progress-bar2 {
+    width: 80%; 
+    background-color: rgb(21, 100, 247);  
+    /*animation: progressAnimation 3s;*/
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 5%; background-color: rgb(249, 253, 9);}
+    100% { width: 85%; background-color: rgb(166, 239, 71); }
+}*/
+ /*progress bar 3 for CSS */
+.progress3 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar3 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    /*transition: 0.4s linear;  
+    transition-property: width, background-color;*/    
+}
+  
+.progress-moved .progress-bar3 {
+    width: 80%; 
+    background-color: rgb(21, 100, 247);  
+    /*animation: progressAnimation 3s;*/
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 5%; background-color: rgb(249, 253, 9);}
+    100% { width: 85%; background-color: rgb(166, 239, 71); }
+}*/
+/*progress bar 4 for JavaScript */ 
+.progress4 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar4 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    /*transition: 0.4s linear;  
+    transition-property: width, background-color;*/    
+}
+  
+.progress-moved .progress-bar4 {
+    width: 60%; 
+    background-color: rgb(21, 100, 247);  
+    /*animation: progressAnimation 3s;*/
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 5%; background-color: rgb(249, 253, 9);}
+    100% { width: 85%; background-color: rgb(166, 239, 71); }
+}*/
+/*progress bar 5 for R */ 
+.progress5 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar5 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    /*transition: 0.4s linear;  
+    transition-property: width, background-color;  */  
+}
+  
+.progress-moved .progress-bar5 {
+    width: 50%; 
+    background-color: rgb(21, 100, 247);  
+    /*animation: progressAnimation 3s;*/
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 5%; background-color: rgb(249, 253, 9);}
+    100% { width: 85%; background-color: rgb(166, 239, 71); }
+}*/
+/*progress bar 6 for React */ 
+.progress6 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    height: 10px;
+}
+
+.progress-bar6 {
+    height: 10px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    /*transition: 0.4s linear;  
+    transition-property: width, background-color; */   
+}
+  
+.progress-moved .progress-bar6 {
+    width: 30%; 
+    background-color: rgb(21, 100, 247);  
+    
+}
+  
+/*@keyframes progressAnimation {
+    0%   { width: 5%; background-color: rgb(249, 253, 9);}
+    100% { width: 85%; background-color: rgb(166, 239, 71); }
+}*/
+ 
+/* my projects button */
+
+.myprojects {
+    grid-area: button;
+    justify-self: end;
+    align-self: center;
+    padding-right: 150px;
+}
+.projectsButton {
+    box-shadow: 3px 4px 0px 0px #dceb0c;
+	background:linear-gradient(to bottom, #7af6ff 5%, #e00d62 100%);
+	background-color:#7af6ff;
+	border-radius:5px;
+	border:1px solid #9e0f81;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Quicksand' , sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #9603e0; 
+}
+
+.projectsButton:hover {
+    background:linear-gradient(to bottom, #e00d62 5%, #7af6ff 100%);
+	background-color:#e00d62;
+}
+
+.projectsButton:active {
+    position: relative;
+
+}

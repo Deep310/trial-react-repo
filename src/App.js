@@ -7,11 +7,12 @@ function App() {
   return (
     <div className="App">
       <Home />
+      
     </div>
   );
 }   
 ReactDOM.render(
-  <App />, document.getElementById('root')
+  <App />, document.getElementById('root')            
 )
 
 export default App;

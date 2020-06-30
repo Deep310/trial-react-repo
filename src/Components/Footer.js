@@ -4,7 +4,7 @@ import FooterCSS from './Footer.css';
 class Footer extends React.Component{
     render(){
         return(
-            <footer style = {FooterCSS} className = 'footer' id = "footer-text">
+            <footer style = {FooterCSS} className = 'footer' id = "contact">
                 <hr></hr>
                     <p className = "footer-text">Come say hey!</p>
                     <div className = "links">

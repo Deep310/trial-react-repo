@@ -40,7 +40,7 @@
   
   .nav-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     min-width: 50%;
   }
   .nav-links li{

@@ -8,9 +8,9 @@ class MyIntro extends React.Component {
             
             <section style = {MyIntroCSS} className = "main-intro">
                 <div className = "text">
-                    <p className = 'move hi'>Hi, I'm</p>
+                    <p className = 'hi'>Hi, I'm</p>
+                    <p className = "myname">Deep Parekh.</p>
                     
-                    <p className = 'move name'>Deep Parekh.</p>
                 
                     <p className = "titles"> Student / Programmer / Web Enthusiast</p>
                     <br></br>

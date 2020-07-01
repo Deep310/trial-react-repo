@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .aboutMe {
-    background-color: var(--crimson);
+    background-color: rgb(179, 12, 95);
     height: 500px;
     display: grid;
     grid-template-columns: [col1] 37% [col2] 2% [col3] 5% [col4] auto [col5];

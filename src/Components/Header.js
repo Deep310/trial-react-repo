@@ -9,7 +9,8 @@ class Header extends React.Component {
 
             <header style = {HeaderCSS} className = "header"> 
                 <div class = "logo">
-                    <h4>Deep Parekh<span role = "img" aria-label = "smiley-emoji">😄</span></h4>
+                    <h4>Deep Parekh</h4>
+                    
                 </div>
 
                 <ul class = "nav-links">

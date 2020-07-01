@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-    --wildWatermelon: #ED5565;
-    --blue: #145ac9;
-    --yellow: #f2e127;
-    --black: #000000;
-    --lightBlue: #1785A7;
-    --aqua: aqua;
-    --white: white;
-    --crimson: #DC143C;
+  --wildWatermelon: #ED5565;
+  --blue: #145ac9;
+  --yellow: #f2e127;
+  --black: #000000;
+  --lightBlue: #1785A7;
+  --aqua: aqua;
+  --white: white;
+  --crimson: #DC143C;
 }
 
 /*I can also write only header, without doubt but whatever, a dot is not so much work */
@@ -16,52 +16,52 @@
 <h1>Deep Parekh 😄</h1>      </div>*/
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  .header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
-    background-color:rgb(179, 12, 95);          /* #DC143C #5d4954 #a71186*/
-    font-family: 'Poppins', sans-serif;
-  }
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color:rgb(179, 12, 95);          /* #DC143C #5d4954 #a71186*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+  color: aqua;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.8vw;;
+  min-width: 50%;
+}
   
-  .logo{
-    color: aqua;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 1.8vw;;
-    min-width: 50%;
-  }
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 50%;
+}
+.nav-links li{
+  list-style:none;
+}
   
+.nav-links a{
+  color: yellow;
+  font-size: 1.4vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+  
+@media screen and (max-width: 768px){
   .nav-links {
-    display: flex;
-    justify-content: space-evenly;
-    min-width: 50%;
+    display :none;
   }
-  .nav-links li{
-    list-style:none;
+  .logo {
+    font-size: 3vw;
   }
-  
-  .nav-links a{
-    color: yellow;
-    font-size: 1.4vw;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  @media screen and (max-width: 768px){
-    .nav-links {
-      display :none;
-    }
-    .logo {
-      font-size: 3vw;
-    }
-  }
+}
 
                 

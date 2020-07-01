@@ -1,7 +1,6 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import HeaderCSS from './Header.css';
-import mylogo from './img/mylogo.png'
 
 
 class Header extends React.Component {

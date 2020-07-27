@@ -11,44 +11,44 @@ class Skills extends React.Component{
                     <div className = 'actually'>
 
                         <p>Java</p>
-                        <div class="container">    
-                            <div class="progress1 progress-moved">
-                                <div class="progress-bar1"></div>                       
+                        <div className="container">    
+                            <div className="progress1 progress-moved">
+                                <div className="progress-bar1"></div>                       
                             </div> 
                         </div>
                         <br></br>
                         <p>HTML</p>
-                        <div class="container">    
-                            <div class="progress2 progress-moved">
-                                <div class="progress-bar2"></div>                       
+                        <div className="container">    
+                            <div className="progress2 progress-moved">
+                                <div className="progress-bar2"></div>                       
                             </div> 
                         </div>
                         <br></br>
                         <p>CSS</p>
-                        <div class="container">    
-                            <div class="progress3 progress-moved">
-                                <div class="progress-bar3"></div>                       
+                        <div className="container">    
+                            <div className="progress3 progress-moved">
+                                <div className="progress-bar3"></div>                       
                             </div> 
                         </div>
                         <br></br>
                         <p>JavaScript</p>
-                        <div class="container">    
-                            <div class="progress4 progress-moved">
-                                <div class="progress-bar4"></div>                       
+                        <div className="container">    
+                            <div className="progress4 progress-moved">
+                                <div className="progress-bar4"></div>                       
                             </div> 
                         </div>
                         <br></br>
                         <p>R</p>
-                        <div class="container">    
-                            <div class="progress5 progress-moved">
-                                <div class="progress-bar5"></div>                       
+                        <div className="container">    
+                            <div className="progress5 progress-moved">
+                                <div className="progress-bar5"></div>                       
                             </div> 
                         </div>
                         <br></br>
                         <p>React</p>
-                        <div class="container">    
-                            <div class="progress6 progress-moved">
-                                <div class="progress-bar6"></div>                       
+                        <div className="container">    
+                            <div className="progress6 progress-moved">
+                                <div className="progress-bar6"></div>                       
                             </div> 
                         </div>
                         <br></br>

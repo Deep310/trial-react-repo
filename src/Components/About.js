@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import AboutCSS from './About.css';
 
-class About extends React.Component{
+class About extends Component{
     render(){
         return(
-            <div className = "forhr">
+            <div className="About">
                 <hr></hr>
                 <div className = "aboutMe" id = "about" style = {AboutCSS}>
                     

@@ -1,67 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 :root{
-  --wildWatermelon: #ED5565;
-  --blue: #145ac9;
-  --yellow: #f2e127;
-  --black: #000000;
-  --lightBlue: #1785A7;
-  --aqua: aqua;
-  --white: white;
-  --crimson: #DC143C;
+  --syca-yellow: #988345;
 }
-
-/*I can also write only header, without doubt but whatever, a dot is not so much work */
-/*<div className = "headerh1">
-<h1>Deep Parekh 😄</h1>      </div>*/
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-  
-.header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background-color:rgb(179, 12, 95);          /* #DC143C #5d4954 #a71186*/
-  font-family: 'Poppins', sans-serif;
+
+.header {
+  padding-top: 15px;
+  background: black/*#F7D8BA*//*#CAF1DE*/;
 }
 
-.logo{
-  color: aqua;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 1.8vw;;
-  min-width: 50%;
-}
-  
-.nav-links {
+.nav-content {
+  padding: 0 2rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-  min-width: 50%;
-}
-.nav-links li{
-  list-style:none;
-}
-  
-.nav-links a{
-  color: yellow;
-  font-size: 1.4vw;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-  
-@media screen and (max-width: 768px){
-  .nav-links {
-    display :none;
-  }
-  .logo {
-    font-size: 3vw;
-  }
 }
 
-                
+.nav-item {
+  display: inline;
+  margin-left: 2.5rem;
+  color: var(--syca-yellow)/*#3b455f*/;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  color: #c5d11b;
+  cursor: pointer;
+}
+
+.myName {
+  font-size: 20px;
+  color: var(--syca-yellow);
+  font-weight: 700;
+}

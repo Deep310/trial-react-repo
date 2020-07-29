@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { Component } from 'react';
 import Header from './Header.js';
 import MyIntro from './MyIntro.js';
 import About from './About.js';
@@ -7,7 +7,7 @@ import Footer from './Footer.js';
 
 
 
-class Home extends React.Component{
+class Home extends Component{
     render(){
         return(
             <div className = "home">

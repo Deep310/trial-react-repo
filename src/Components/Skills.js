@@ -1,70 +1,41 @@
-import React from 'react';
-import SkillsCSS from './Skills.css';
+import React , { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './Skills.css';
+import ATTLogo from './img/AT&T logo.png';
 
-class Skills extends React.Component{
+class Skills extends Component{
     render(){
         return(
-            <div className = 'forhr'>
-                <hr></hr>
-                <div className = 'myskills' id = 'skills' style = {SkillsCSS}>
-
-                    <div className = 'actually'>
-
-                        <p>Java</p>
-                        <div class="container">    
-                            <div class="progress1 progress-moved">
-                                <div class="progress-bar1"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <p>HTML</p>
-                        <div class="container">    
-                            <div class="progress2 progress-moved">
-                                <div class="progress-bar2"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <p>CSS</p>
-                        <div class="container">    
-                            <div class="progress3 progress-moved">
-                                <div class="progress-bar3"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <p>JavaScript</p>
-                        <div class="container">    
-                            <div class="progress4 progress-moved">
-                                <div class="progress-bar4"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <p>R</p>
-                        <div class="container">    
-                            <div class="progress5 progress-moved">
-                                <div class="progress-bar5"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <p>React</p>
-                        <div class="container">    
-                            <div class="progress6 progress-moved">
-                                <div class="progress-bar6"></div>                       
-                            </div> 
-                        </div>
-                        <br></br>
-                        <br></br>
-                        
-                    </div>
-
-                    <div className = 'writing'>
-                        <h1>Skills</h1>
-                    </div>
-
-                    <div className = "myprojects">
-                        <a href="https://github.com/Deep310" target = "_blank" rel = "noopener noreferrer" className="projectsButton">Check out my projects!</a>
-                    </div>
-
-                </div>
+            <div className = 'Experience'>
+                <Container fluid>
+                    <Row>
+                        <Col>
+                            <p className='exp-heading text-center font-weight-bold'> Experience</p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={12} md={12} lg={4}>
+                            <img id='att-img' src={ATTLogo} alt='AT&T Logo' />
+                        </Col>
+                        <Col>
+                            <h2 className='text-left font-weight-bold my-exp'>Summer Learning Academy Extern, AT&T</h2>
+                            <p className='exp-des-1 text-center'>
+                                - Acquired business and technical acumen along with personal growth and professional
+                                 development across 80 hours of online learning developed to support students during 
+                                 the 2020 COVID-19 pandemic.
+                            </p>
+                            <p className='exp-des-2 text-center'>
+                                -Gained insights and advice on business, leadership, and career from business executives
+                                 and recognized experts.
+                            </p>
+                            <p className='exp-des-3 text-center'>
+                                -Networked with students and AT&T employees and asked questions to nationally renowned speakers. 
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         )
     }

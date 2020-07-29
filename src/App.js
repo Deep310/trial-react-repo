@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import Home from './components/Home.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {  
   return (

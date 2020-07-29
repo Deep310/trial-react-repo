@@ -1,42 +1,28 @@
-.footer {
-    background-color: rgb(179, 12, 95);
-    height: 180px;
+.Contact {
+    background-color: black;
+    padding: 0 10rem;
 }
 
-.footer-text {
-    text-align: center;
-    padding: 10px 0;
-    margin: 0;
-    /*font-weight: 650;*/
-    color: yellow;
-    font-size: 60px;
-    animation: footer-text 5s; 
-    animation-iteration-count: infinite;
-    /*animation-timing-function: ease-in-out;*/
-    font-family: 'Quicksand', sans-serif;
-    animation-delay: 2s ;
-    
+.footer-heading{
+    color: var(--syca-yellow);
+    font-size: 3.5rem;
+    margin: 2.5rem 0 1rem 0; 
+    font-family: 'Lora', sans-serif;
 }
 
-@keyframes footer-text {
-    0% {color: var(--aqua);}
-    10% {color: #d61320;}
-    20% {color: #D3D3D3;}
-    30% {color: #d639a2;}
-    40% {color: #e6d817;}
-    50% {color: #e66617;}
-    60% {color: #3eb489;}
-    70% {color: #aac0b3;}
-    80% {color: #008080;}
-    90% {color: #47e617;}
+.footer-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--syca-yellow);
+    margin: 2rem 0;
 }
 
-.links{
-   text-align: center;
-   margin: 0;
-   padding: 10px 0;
+.react-icons{
+    margin: 20px 15px;
 }
 
-.links a {
-    margin: 0 30px 0 30px;
+@media screen and (max-width: 700px){
+    .Contact{
+        padding: 0 2rem;
+    }
 }

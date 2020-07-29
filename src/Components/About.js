@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
-import AboutCSS from './About.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './About.css';
+import myPicture from './img/my-image.jpg';
 
 class About extends Component{
     render(){
         return(
             <div className="About">
-                <hr></hr>
-                <div className = "aboutMe" id = "about" style = {AboutCSS}>
-                    
-                    <div className = "vishay">
-                        <h1 className = 'first'>A little</h1>
-                        <h1 className = 'second'>about me</h1>
-                    </div>
-
-                    <div className="vertical"></div>
-                    <div className = "desc">
-                        <p>I am a rising sophomore at <a href = "https://www.rutgers.edu/new-brunswick" target = "_blank" rel ="noopener noreferrer">Rutgers University - New Brunswick</a> majoring in computer
-                        science and minoring in business adminstration and cognitive science. I adore coding as
-                        I enjoy building creative things with code and applying the logic to solve real-world
-                        problems. Outside of classes, I like to keep busy by being involved in the community, 
-                        especially in computer science. Currently, I am learning about web development  
-                        by familiarizing myself with various JavaScript frameworks such as React, Vue and databases  
-                        such as MySQL. When I am not busy coding, you can find me watching TV shows on netflix, 
-                        reading books, baking vegan cakes, writing blogs, or making paintings.</p>
-                
-                    </div>
-                </div>
+                <Container fluid>
+                    <Row>
+                        <Col xs={12} sm={12} md={12} lg={5}>
+                            <img id="myImage" alt='Deep Parekh' src={myPicture} />
+                        </Col>
+                        <Col>
+                            <p className='heading text-center font-weight-bold'>About Me</p>
+                            <p className='p1'>Hello! I'm a rising sophomore at Rutgers University
+                             - New Brunswick with a major in Computer Science and minor in Business
+                              Administration and Cognitive Science. I enjoy learning new technologies
+                               and creating projects out of them to really enhance the knowledge I
+                              acquired. Being a web enthusiast, I like to work on a variety of 
+                              interesting and meaningful projects that involve both, frontend and
+                               backend management. On campus, I serve as a Math and CS tutor, assisting
+                                students on their homework problems. I also serve as an Education Chair of Rutgers USACS, 
+                                working on bringing the CS community on campus together through educational events. </p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>       
         )
     }

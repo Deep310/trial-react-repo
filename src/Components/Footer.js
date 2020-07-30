@@ -44,7 +44,7 @@ class Footer extends Component{
                                     <FaFacebookSquare />
                                     </IconContext.Provider>
                                 </a>
-                                <a href="mailto:archiparekh23@gmail.com">
+                                <a href="mailto:dparekh2019@gmail.com">
                                     <IconContext.Provider value={{ color: "#988345", size: "3em", className: "react-icons" }}>
                                     <MdEmail />
                                     </IconContext.Provider>

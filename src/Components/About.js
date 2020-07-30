@@ -16,7 +16,7 @@ class About extends Component{
                         </Col>
                         <Col>
                             <p className='heading text-center font-weight-bold'>About Me</p>
-                            <p className='p1'>Hello! I'm a rising sophomore at <a href='https://newbrunswick.rutgers.edu/'>Rutgers University
+                            <p className='p1'>Hello! I'm a rising sophomore at <a id='my-rutgers' href='https://newbrunswick.rutgers.edu/'>Rutgers University
                              - New Brunswick</a> with a major in Computer Science and minor in Business
                               Administration and Cognitive Science. I enjoy learning new technologies
                                and creating projects out of what I learn to really enhance the knowledge I

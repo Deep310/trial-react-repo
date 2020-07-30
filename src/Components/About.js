@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './About.css';
-import myPicture from './img/my-image.jpg';
+import myPicture from './img/myImagev2-min.jpg';
 
 class About extends Component{
     render(){
@@ -22,8 +22,7 @@ class About extends Component{
                                and creating projects out of them to really enhance the knowledge I
                               acquired. Being a web enthusiast, I like to work on a variety of 
                               interesting and meaningful projects that involve both, frontend and
-                               backend management. On campus, I serve as a Math and CS tutor, assisting
-                                students on their homework problems. I also serve as an Education Chair of Rutgers USACS, 
+                               backend management. On campus, I serve as an Education Chair of Rutgers USACS, 
                                 working on bringing the CS community on campus together through educational events. </p>
                         </Col>
                     </Row>

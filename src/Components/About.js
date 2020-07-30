@@ -19,7 +19,7 @@ class About extends Component{
                             <p className='p1'>Hello! I'm a rising sophomore at Rutgers University
                              - New Brunswick with a major in Computer Science and minor in Business
                               Administration and Cognitive Science. I enjoy learning new technologies
-                               and creating projects out of them to really enhance the knowledge I
+                               and creating projects out of what I learn to really enhance the knowledge I
                               acquired. Being a web enthusiast, I like to work on a variety of 
                               interesting and meaningful projects that involve both, frontend and
                                backend management. On campus, I serve as an Education Chair of Rutgers USACS, 

@@ -20,7 +20,7 @@ class Footer extends Component{
                     <Row>
                         <Col>
                             <p className='footer-text'>Thanks for visiting!
-                             I'm always looking for new opprtunities and connections. My
+                             I'm always looking for new opportunities and connections. My
                             inbox is always open. Whether you have a question
                              or just want to say hi, feel free to message me. I'll try my best to get
                               back to you as soon as possible.</p>

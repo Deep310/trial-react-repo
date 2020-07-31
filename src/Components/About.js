@@ -8,7 +8,7 @@ import myPicture from './img/myImagev2-min.jpg';
 class About extends Component{
     render(){
         let width = window.innerWidth;
-        if(width < 256){
+        if(width < 400){
             return(
                 <div className="About">
                     <Container fluid>

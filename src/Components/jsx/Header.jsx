@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-scroll';
-import './Header.css';
+import '../css/Header.css';
 
 class Header extends Component {
     render(){ 
@@ -19,7 +19,7 @@ class Header extends Component {
                         <ul className="header--navbar">
                             <li className="header--navbar-item">
                                 <Link
-                                    to="About"
+                                    to="about"
                                     spy={true}
                                     smooth={true}
                                     offset={-10}

@@ -2,8 +2,8 @@ import React , { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './Skills.css';
-import ATTLogo from './img/AT&T logo.png';
+import '../css/Skills.css';
+import ATTLogo from '../img/AT&T logo.png';
 
 class Skills extends Component{
     render(){

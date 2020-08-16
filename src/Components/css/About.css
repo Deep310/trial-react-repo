@@ -1,0 +1,41 @@
+.about{
+    background-color:#ECC7C0;
+    margin: 0 2rem;
+}
+
+#myImage{
+    margin: 0 0 5rem 0;
+    height: 380px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.about--heading{
+    font-size: 3.5rem;
+    font-family: 'Lora', sans-serif;
+    margin: 5rem 0 3rem 0 ;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about--para-1{
+    color: black;
+    font-size: 1.46rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin: 4rem 0 3rem 0;
+    text-align: left;
+}
+
+#my-rutgers{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .about--para-1{
+        text-align: center;
+    }
+}

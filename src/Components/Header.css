@@ -8,9 +8,9 @@
   box-sizing: border-box;
 }
 
-.header {
+.header{
   padding-top: 15px;
-  background: black/*#F7D8BA*//*#CAF1DE*/;
+  background: black;
 }
 
 .nav-content {

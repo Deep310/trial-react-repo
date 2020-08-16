@@ -1,4 +1,4 @@
-.About{
+.about{
     background-color: black;
     border-bottom: 1px solid var(--syca-yellow);
 }
@@ -8,23 +8,22 @@
     width: 380px;
     border-radius: 200px;
 }
-#my-rutgers{
-    text-decoration: none;
-    color: var(--syca-yellow);
-}
-#my-rutgers:hover{
-    color: white;
-}
-.heading{
+
+.about--heading{
     color: var(--syca-yellow);
     font-size: 3.5rem;
     font-family: 'Lora', sans-serif;
     margin: 2.5rem 0;
 }
 
-.p1{
+.about--para{
     color: var(--syca-yellow);
     padding: 0 1.5rem ;
     font-size: 19px;
     font-weight: 500;
+}
+
+#my-rutgers{
+    text-decoration: none;
+    color: white;
 }

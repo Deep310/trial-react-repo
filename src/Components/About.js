@@ -8,15 +8,15 @@ import myPicture from './img/myImagev2-min.jpg';
 class About extends Component{
     render(){
         return(
-            <div className="About">
+            <div className="about">
                 <Container fluid>
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={5}>
                             <img id="myImage" alt='Deep Parekh' src={myPicture} />
                         </Col>
                         <Col>
-                            <p className='heading text-center font-weight-bold'>About Me</p>
-                            <p className='p1'>Hello! I'm a rising sophomore at <a id='my-rutgers' href='https://newbrunswick.rutgers.edu/'>Rutgers University
+                            <p className='about--heading text-center font-weight-bold'>About Me</p>
+                            <p className='about--para'>Hello! I'm a rising sophomore at <a id='my-rutgers' href='https://newbrunswick.rutgers.edu/'>Rutgers University
                                 - New Brunswick</a> with a major in Computer Science and minor in Business
                                 Administration and Cognitive Science. I enjoy learning new technologies
                                 and creating projects out of what I learn to really enhance the knowledge I

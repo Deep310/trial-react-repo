@@ -1,10 +1,9 @@
-.Experience{
-    background-color: black;
-    color: var(--syca-yellow);
-    border-bottom: 1px solid var(--syca-yellow);
+.experience{
+    background-color: #8BCBC8;
+    color: black;
 }
 
-.exp-heading{
+.experience--heading{
     padding: 2.5rem 0;
     font-size: 3.5rem;
     font-family: 'Lora', sans-serif;
@@ -22,12 +21,13 @@
     padding-left: 3rem;
     padding-top: 2rem;
 }
-.exp-des-1{
+.experience1--des-1{
     padding-top: 2rem;
 }
-.exp-des-1, .exp-des-2, .exp-des-3{
+.experience--des-1, .experience--des-2, .experience--des-3{
     padding-bottom: 2rem;
     margin: 0;
     font-weight: 500;
     font-size: 1.1rem;
+    text-align: left;
 }

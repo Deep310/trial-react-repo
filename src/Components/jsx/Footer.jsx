@@ -10,16 +10,16 @@ import '../css/Footer.css';
 class Footer extends Component{
     render(){
         return(
-            <footer className = 'Contact'>
+            <footer className = 'contact'>
                 <Container fluid>
                     <Row>
                         <Col>
-                            <p className='footer-heading font-weight-bold text-center'>Get In Touch</p>
+                            <p className='contact--heading font-weight-bold text-center'>Get In Touch</p>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <p className='footer-text'>Thanks for visiting!
+                            <p className='contact--text'>Thanks for visiting!
                              I'm always looking for new opportunities and connections. My
                             inbox is always open. Whether you have a question
                              or just want to say hi, feel free to message me. I'll try my best to get
@@ -30,22 +30,22 @@ class Footer extends Component{
                         <Col>
                             <div>
                                 <a href="https://github.com/Deep310" target="_blank" rel="noopener noreferrer">
-                                    <IconContext.Provider value={{ color: "#988345", size: "3em", className: "react-icons" }}>
+                                    <IconContext.Provider value={{ color: "white", size: "3em", className: "react-icons" }}>
                                     <FaGithub />
                                     </IconContext.Provider>
                                 </a>
                                 <a href="https://www.linkedin.com/in/deep-parekh/" target="_blank" rel="noopener noreferrer">
-                                    <IconContext.Provider value={{ color: "#988345", size: "3em", className: "react-icons" }}>
+                                    <IconContext.Provider value={{ color: "white", size: "3em", className: "react-icons" }}>
                                     <FaLinkedinIn />
                                     </IconContext.Provider>
                                 </a>
                                 <a href="https://www.facebook.com/profile.php?id=100006023175255" target="_blank" rel="noopener noreferrer">
-                                    <IconContext.Provider value={{ color: "#988345", size: "3em", className: "react-icons" }}>
+                                    <IconContext.Provider value={{ color: "white", size: "3em", className: "react-icons" }}>
                                     <FaFacebookSquare />
                                     </IconContext.Provider>
                                 </a>
                                 <a href="mailto:dparekh2019@gmail.com">
-                                    <IconContext.Provider value={{ color: "#988345", size: "3em", className: "react-icons" }}>
+                                    <IconContext.Provider value={{ color: "white", size: "3em", className: "react-icons" }}>
                                     <MdEmail />
                                     </IconContext.Provider>
                                 </a>

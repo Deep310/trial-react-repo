@@ -35,7 +35,7 @@ class Header extends Component {
                                     to="Experience"
                                     spy={true}
                                     smooth={true}
-                                    offset={-70}
+                                    offset={0}
                                     duration={700}
                                 >
                                 Experience

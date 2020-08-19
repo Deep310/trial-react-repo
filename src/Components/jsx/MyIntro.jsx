@@ -12,8 +12,8 @@ import symbol from '../img/symbol.png';
 const StyledButton = withStyles({
     root: {
       borderRadius: 5,
-      border: '2px solid #988345',
-      color: '#988345',
+      border: '2px solid #333',
+      color: '#333',
       height: 50,
       padding: '0 30px',
       marginBottom: '6rem'

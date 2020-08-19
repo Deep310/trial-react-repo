@@ -10,14 +10,14 @@ class Header extends Component {
         return(
             <Container fluid className="header">
                 <Row className="header--row">
-                    <Col xs={2} sm={3} md={5} lg={7} className="text-left">
+                    <Col>
                         <p className="header--logo">
                             Deep Parekh 
                         </p>
                     </Col>
-                    <Col className="text-right">
+                    <Col>
                         <ul className="header--navbar">
-                            <li className="header--navbar-item">
+                            <li className="header--navbar-item first-item">
                                 <Link
                                     to="about"
                                     spy={true}
@@ -32,7 +32,7 @@ class Header extends Component {
                             <li className="header--navbar-item">
                                 <Link
                                     activeClass="active"
-                                    to="Experience"
+                                    to="experience"
                                     spy={true}
                                     smooth={true}
                                     offset={0}
@@ -56,7 +56,7 @@ class Header extends Component {
                             <li className="header--navbar-item">
                                 <Link
                                     activeClass="active"
-                                    to="Contact"
+                                    to="contact"
                                     spy={true}
                                     smooth={true}
                                     offset={-20}

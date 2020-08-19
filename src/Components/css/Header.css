@@ -1,6 +1,5 @@
 .header{
   padding: 15px 0 5px 0;
-  margin: 0;
   background: white;
 }
 
@@ -24,6 +23,9 @@
   font-size: 20px;
 }
 
+.first-item{
+  margin-left: 7.5rem;
+}
 .header--navbar-item:hover {
   color: black;
   cursor: pointer;

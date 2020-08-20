@@ -5,7 +5,7 @@
 
 .header--logo{
   font-size: 20px;
-  color: var(--syca-yellow);
+  color: #988345;
   font-weight: 700;
   padding-left: 20px;
 }
@@ -26,7 +26,14 @@
 .first-item{
   margin-left: 7.5rem;
 }
+
 .header--navbar-item:hover {
   color: black;
   cursor: pointer;
+}
+
+@media screen and (max-width: 512px){
+  .header--navbar{
+    display: none;
+  }
 }

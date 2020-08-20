@@ -49,10 +49,10 @@ class MyIntro extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <StyledButton onClick={scroll.scrollToBottom}>
+                        <StyledButton>
                             <Link
                                 activeClass="active"
-                                to="Contact"
+                                to="contact"
                                 spy={true}
                                 smooth={true}
                                 offset={-20}

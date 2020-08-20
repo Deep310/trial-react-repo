@@ -3,7 +3,7 @@
 }
 
 #myImage{
-    margin: 0 0 5rem 0;
+    margin: 0 0 5rem 2rem;
     height: 420px;
     width: 380px;
     border-radius: 20px;
@@ -55,4 +55,8 @@
 .about--listOfTech_list1, 
 .about--listOfTech_list2{
     list-style-type: '‣';
+}
+
+.about--listOfTech_list1{
+    margin-right: 60px;
 }

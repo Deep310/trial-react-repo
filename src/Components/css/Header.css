@@ -1,0 +1,39 @@
+.header{
+  padding: 15px 0 5px 0;
+  background: white;
+}
+
+.header--logo{
+  font-size: 20px;
+  color: #988345;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.header--navbar{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.header--navbar-item {
+  margin-left: 2.3rem;
+  color: rgb(92, 89, 89);
+  font-weight: 350;
+  font-size: 20px;
+}
+
+.first-item{
+  margin-left: 7.5rem;
+}
+
+.header--navbar-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 512px){
+  .header--navbar{
+    display: none;
+  }
+}

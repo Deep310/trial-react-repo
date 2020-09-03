@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-scroll';
+import '../css/Header.css';
 
 class Header extends Component {
     render(){ 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/Hobbies.css';
 
 class Hobbies extends Component{
     render(){

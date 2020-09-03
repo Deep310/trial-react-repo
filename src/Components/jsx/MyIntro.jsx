@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import { Link , animateScroll as scroll }  from 'react-scroll';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
-import '../css/MyIntro.css';
 import symbol from '../img/symbol.png';
 
 //adding custom styles to button

@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { FaLinkedinIn, FaGithub, FaFacebookSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from "react-icons";  
+import '../css/Footer.css';
 
 class Footer extends Component{
     render(){

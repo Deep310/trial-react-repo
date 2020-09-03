@@ -6,14 +6,14 @@ import { Link , animateScroll as scroll }  from 'react-scroll';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import '../css/MyIntro.css';
-import symbol from '../img/symbol.png';
+import symbol from '../img/symbol-1.png';
 
 //adding custom styles to button
 const StyledButton = withStyles({
     root: {
       borderRadius: 5,
-      border: '2px solid #333',
-      color: '#333',
+      border: '2px solid #988345',
+      color: '#988345',
       height: 50,
       padding: '0 30px',
       marginBottom: '6rem'

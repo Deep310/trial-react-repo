@@ -15,13 +15,13 @@
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.3rem;
     padding-left: 40px;
-    color: #333333;
+    color: #988345;
 }
 
 .intro--line{
     width:70px;
     height: 5px;
-    background-color: #333333;
+    background-color: #988345;
     position: absolute;
     left: 47%;
 }
@@ -29,7 +29,7 @@
 .intro--roles{
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
-    color: #333333;
+    color: #988345;
     margin: 40px 0 60px 90px;
     font-weight: 500;
 }

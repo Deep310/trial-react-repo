@@ -1,6 +1,7 @@
 .header{
-  padding: 15px 0 5px 0;
   background: white;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .header--logo{
@@ -8,22 +9,26 @@
   color: #988345;
   font-weight: 700;
   width: 50%;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .header--navbar{
   display: flex;
-  justify-content: space-evenly;
+  padding-top: 10px;
   list-style: none;
+  width: 50%;
 }
 
 .header--navbar-item {
   color: rgb(92, 89, 89);
+  margin-right: 3rem;
   font-weight: 350;
   font-size: 20px;
 }
 
 .first-item{
-  margin-left: 7.5rem;
+  margin-left: 8rem;
 }
 
 .header--navbar-item:hover {

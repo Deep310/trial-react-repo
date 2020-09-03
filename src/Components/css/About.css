@@ -1,0 +1,62 @@
+.about{
+    background-color:#ECC7C0;
+}
+
+#myImage{
+    margin: 0 0 5rem 2rem;
+    height: 420px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.about--heading{
+    font-size: 3.5rem;
+    font-family: 'Lora', sans-serif;
+    margin: 5rem 0 3rem 0 ;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about--para-1,
+.about--para-2{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.about--para-1{
+    margin: 0 0 2rem 0;
+}
+
+#rutgers{
+    text-decoration: none;
+    color: rgb(45, 75, 204);
+}
+
+#rutgers:hover{
+    color: black;
+}
+
+.about--para-2{
+    text-align: left;
+
+}
+
+.about--listOfTech{
+    display: flex;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.about--listOfTech_list1, 
+.about--listOfTech_list2{
+    list-style-type: '‣';
+}
+
+.about--listOfTech_list1{
+    margin-right: 60px;
+}

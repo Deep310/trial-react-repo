@@ -9,20 +9,18 @@ import Hobbies from './components/jsx/Hobbies';
 import Footer from './components/jsx/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+function App() {
+	return (
+		<div className="App">
+			<Header />
+			<MyIntro />
+			<About />
+			<Skills />
+			<Footer />
+		</div>
+	);
+}
 
-function App() {  
-  return (
-    <div className="App">
-      <Header />
-      <MyIntro />
-      <About />
-      <Skills />
-      <Footer />      
-    </div>
-  );
-}   
-ReactDOM.render(
-  <App />, document.getElementById('root')            
-)
+ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;

@@ -1,35 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.intro{
-    background-color: #bfdbd2;
-    text-align: center;
+.intro {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f0f0;
+	text-align: center;
 }
 
-.intro--symbol{
-    margin-top: 5rem;
+.intro--symbol {
+	margin-top: 5rem;
 }
 
-.intro--name{
-    font-size: 6rem;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.3rem;
-    padding-left: 40px;
-    color: #988345;
+.intro--name {
+	font-size: 5rem;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 40px;
+	color: #1b1b1b;
 }
 
-.intro--line{
-    width:70px;
-    height: 5px;
-    background-color: #988345;
-    position: absolute;
-    left: 47%;
+.intro--line {
+	width: 70px;
+	height: 5px;
+	background-color: #988345;
+	position: absolute;
+	left: 47%;
 }
 
-.intro--roles{
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    color: #988345;
-    margin: 40px 0 60px 90px;
-    font-weight: 500;
+.intro--roles {
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	color: #988345;
+	margin: 40px 0 60px 90px;
+	font-weight: 500;
 }

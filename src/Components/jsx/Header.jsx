@@ -1,69 +1,88 @@
-import React , { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import '../css/Header.css';
+import burger from '../img/burger-menu.png';
 
-class Header extends Component {
-    render(){ 
-        return(
-            <div className="header">
-                <p className="header--logo">
-                    Deep Parekh 
-                </p>
-                
-            
-                <ul className="header--navbar">
-                    <li className="header--navbar-item first-item">
-                        <Link
-                            to="about"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration={500}
-                            >
-                            About
-                        </Link>
-                    </li>
+function handleClick() {
+	console.log(33);
+}
 
-                    <li className="header--navbar-item">
-                        <Link
-                            activeClass="active"
-                            to="experience"
-                            spy={true}
-                            smooth={true}
-                            offset={0}
-                            duration={700}
-                        >
-                        Experience
-                        </Link>
-                    </li>
-                    <li className="header--navbar-item">
-                        <Link
-                            activeClass="active"
-                            to="Hobbies"
-                            spy={true}
-                            smooth={true}
-                            offset={-20}
-                            duration={800}
-                        >
-                        Hobbies
-                        </Link>
-                    </li>
-                    <li className="header--navbar-item">
-                        <Link
-                            activeClass="active"
-                            to="contact"
-                            spy={true}
-                            smooth={true}
-                            offset={-20}
-                            duration={900}
-                        >
-                        Contact
-                        </Link>
-                    </li>
-                </ul>
-            </div>
-        )
-    }
+function Header() {
+	const [hamburger, sethamburger] = useState(false);
+
+	useEffect(() => {
+		window.addEventListener('resize', () => {
+			if (document.documentElement.clientWidth <= 1000) {
+				sethamburger(true);
+				console.log(document.documentElement.clientWidth);
+			} else {
+				sethamburger(false);
+			}
+		});
+		return () => {
+			window.removeEventListener('resize', () => {});
+		};
+	}, []);
+
+	return (
+		<div className="header--navbar">
+			<div className="logo"><i>DP</i></div>
+			<ul className="nav-links">
+				<li>
+					<a href="#">
+						<Link
+							to="about"
+							spy={true}
+							smooth={true}
+							offset={0}
+							duration={500}
+						>
+							About
+						</Link>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<Link
+							to="experience"
+							spy={true}
+							smooth={true}
+							offset={0}
+							duration={700}
+						>
+							Experience
+						</Link>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<Link
+							to="Hobbies"
+							spy={true}
+							smooth={true}
+							offset={-20}
+							duration={800}
+						>
+							Hobbies
+						</Link>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<Link
+							to="contact"
+							spy={true}
+							smooth={true}
+							offset={-20}
+							duration={900}
+						>
+							Contact
+						</Link>
+					</a>
+				</li>
+			</ul>
+		</div>
+	);
 }
 
 export default Header;

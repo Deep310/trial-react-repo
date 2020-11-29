@@ -1,37 +1,74 @@
-.header{
-  background: white;
-  display: flex;
-  flex-wrap: nowrap;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.header--logo{
-  font-size: 20px;
-  color: #988345;
-  font-weight: 700;
-  width: 50%;
-  padding-left: 20px;
-  padding-top: 10px;
+body::-webkit-scrollbar {
+	width: 8px;
 }
 
-.header--navbar{
-  display: flex;
-  padding-top: 10px;
-  list-style: none;
-  width: 50%;
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.header--navbar-item {
-  color: rgb(92, 89, 89);
-  margin-right: 3rem;
-  font-weight: 350;
-  font-size: 20px;
+body::-webkit-scrollbar-thumb {
+	background-color: #f36;
+	border-radius: 20px;
 }
 
-.first-item{
-  margin-left: 8rem;
+li {
+	list-style: none;
 }
 
-.header--navbar-item:hover {
-  color: black;
-  cursor: pointer;
+.header--navbar {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	min-height: 10vh;
+	align-items: center;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.header--navbar .logo {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.header--navbar .nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+	align-items: center;
+	margin: 0;
+}
+
+.header--navbar .nav-links a {
+	font-size: 17px;
+	text-decoration: none;
+	color: #343433;
+	font-weight: 500;
+}
+
+.header--navbar .nav-links a:hover {
+	color: #f36;
+}
+
+.header--navbar .nav-links a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: #f36;
+	transition: width 0.3s;
+}
+
+.header--navbar .nav-links a:hover::after {
+	width: 100%;
 }

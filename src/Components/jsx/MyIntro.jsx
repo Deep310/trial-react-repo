@@ -31,7 +31,6 @@ class MyIntro extends Component {
             <Container fluid className="intro">
                 <Row>
                     <Col className="intro--symbol">
-                        <img alt="coding symbol" src={symbol} />
                     </Col>
                 </Row>
                 <Row>

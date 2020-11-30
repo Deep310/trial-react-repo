@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../css/About.css';
-import myPicture from '../img/myImage.jpg';
 
 class About extends Component{
     render(){
@@ -15,9 +14,7 @@ class About extends Component{
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12} sm={12} md={12} lg={5}>
-                        <img id="myImage" alt='Deep Parekh' src={myPicture} />
-                    </Col>
+                    
                     <Col className="about--para-col">
                         <p className="about--para-1">Hello! I'm a rising sophomore at
                          <a id='rutgers' href='https://newbrunswick.rutgers.edu/'> Rutgers University-

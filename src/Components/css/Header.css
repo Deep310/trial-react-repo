@@ -72,3 +72,17 @@ li {
 .header--navbar .nav-links a:hover::after {
 	width: 100%;
 }
+
+.hand-up {
+	top: 90vh;
+	right: 1.5vw;
+	position: fixed;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.hand-up:hover {
+	transform: translateY(-15px);
+	transition: transform 0.2s linear;
+	cursor: pointer;
+}

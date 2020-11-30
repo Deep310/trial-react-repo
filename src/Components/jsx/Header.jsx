@@ -1,32 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import '../css/Header.css';
-import burger from '../img/burger-menu.png';
 
 function handleClick() {
-	console.log(33);
+	window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function Header() {
-	const [hamburger, sethamburger] = useState(false);
+	const [showHand, setShowHand] = useState(false);
 
 	useEffect(() => {
-		window.addEventListener('resize', () => {
-			if (document.documentElement.clientWidth <= 1000) {
-				sethamburger(true);
-				console.log(document.documentElement.clientWidth);
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 500) {
+				setShowHand(true);
 			} else {
-				sethamburger(false);
+				setShowHand(false);
 			}
 		});
 		return () => {
-			window.removeEventListener('resize', () => {});
+			window.removeEventListener('scroll', () => {});
 		};
 	}, []);
 
 	return (
 		<div className="header--navbar">
-			<div className="logo"><i>DP</i></div>
+			<div className="logo">
+				<i>DP</i>
+			</div>
 			<ul className="nav-links">
 				<li>
 					<a href="#">
@@ -50,7 +50,7 @@ function Header() {
 							offset={0}
 							duration={700}
 						>
-							Experience
+							Skills
 						</Link>
 					</a>
 				</li>
@@ -63,7 +63,7 @@ function Header() {
 							offset={-20}
 							duration={800}
 						>
-							Hobbies
+							Projects
 						</Link>
 					</a>
 				</li>
@@ -81,6 +81,16 @@ function Header() {
 					</a>
 				</li>
 			</ul>
+			{showHand && (
+				<span
+					onClick={() => handleClick()}
+					className="hand-up"
+					role="img"
+					aria-label="hand pointing up"
+				>
+					☝
+				</span>
+			)}
 		</div>
 	);
 }

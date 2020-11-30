@@ -82,7 +82,7 @@ li {
 }
 
 .hand-up:hover {
-	transform: translateY(-15px);
+	transform: translateY(-13px);
 	transition: transform 0.2s linear;
 	cursor: pointer;
 }

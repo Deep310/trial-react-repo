@@ -1,53 +1,73 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import '../css/About.css';
 
-class About extends Component{
-    render(){
-        return(
-            <Container fluid className="about">
-                <Row>
-                    <Col>
-                        <p className='about--heading'>About Me</p>
-                    </Col>
-                </Row>
-                <Row>
-                    
-                    <Col className="about--para-col">
-                        <p className="about--para-1">Hello! I'm a rising sophomore at
-                         <a id='rutgers' href='https://newbrunswick.rutgers.edu/'> Rutgers University-
-                         New Brunswick</a> with a major in Computer Science with minors in Business
-                        Administration and Cognitive Science. I enjoy learning new tricks and technologies
-                         whether it is web development or solving programming challenges. I also spend time
-                        working on a variety of interesting projects either on my own or with a team in hackathons. 
-                         On campus, I serve
-                         as an Education Chair of Rutgers USACS, working on bringing the CS community
-                        on campus together through educational events. </p>
-
-                        <p className="about--para-2">Here are a few technologies I've been working with recently:
-                            <div className="about--listOfTech">
-                                <ul className="about--listOfTech_list1">
-                                    <li>&nbsp; HTML &amp; &#40;S&#41;CSS</li>
-                                    <li>&nbsp; JavaScript &#40;ES6&#41;</li>
-                                    <li>&nbsp; Node.js</li>
-                                </ul>
-
-                                <ul className="about--listOfTech_list2">
-                                    <li>&nbsp; React</li>
-                                    <li>&nbsp; Express</li>
-                                    <li>&nbsp; Firebase</li>
-                                </ul>
-
-                            </div>
-                            
-                        </p>
-                    </Col>
-                </Row>
-            </Container>
-        )
-    }
+function About() {
+	return (
+		<div className="about">
+			<div className="about--heading">
+				About Me{' '}
+				<span role="img" aria-label="boy emoji">
+					👱🏼‍♂️
+				</span>
+			</div>
+			<p className="about--text">
+				My name is Deep Parekh. I am a sophomore studying computer science
+				and economics at{' '}
+				<a
+					id="rutgers"
+					href="https://newbrunswick.rutgers.edu/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Rutgers University - New Brunswick
+				</a>
+				&nbsp;and an aspiring software engineer with a passion to build
+				applications which have a social impact. On campus, I'm the
+				Education Chair at{' '}
+				<a
+					id="usacs"
+					href="https://usacs.rutgers.edu/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Rutgers USACS
+				</a>
+				, Creative Committee member at Rutgers Entrepreneurial Society, and
+				Web Development Committee member at{' '}
+				<a
+					id="bits"
+					href="https://www.instagram.com/rutgers_bits/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Rutgers BITS
+				</a>
+				. Being involved with these clubs and working with other committee
+				members to create opportunities for students to learn and grow
+				outside of their classes, I have made many new friends, developed my
+				communication skills, and improved my technical skills as well!{' '}
+				<br />
+				<br /> Currently, I am a Full-Stack Developer intern at an Ed-Tech
+				startup{' '}
+				<a
+					id="minosLabs"
+					href="https://www.minoslabs.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Minos Labs
+				</a>
+				, where I use my web development skills to help build a platform to
+				accelerate the careers of recent Full-Stack and Cybersecurity
+				graduates by including Fortune 1000 leaders into the high impact
+				training program offered by Minos Labs. <br />
+				<br /> When I'm not trying to set the proper margin and padding of a
+				div, you can find me exercising to stay fit, trying to learn
+				ukulele, exploring new Christmas songs, having fun with my family,
+				or building fun side projects.{' '}
+			</p>
+		</div>
+	);
 }
 
 export default About;

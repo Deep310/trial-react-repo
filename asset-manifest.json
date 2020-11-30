@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cc7896b.chunk.css",
-    "main.js": "/static/js/main.a1bbf894.chunk.js",
-    "main.js.map": "/static/js/main.a1bbf894.chunk.js.map",
+    "main.css": "/static/css/main.e442a351.chunk.css",
+    "main.js": "/static/js/main.c7003d05.chunk.js",
+    "main.js.map": "/static/js/main.c7003d05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dcd9e920.js",
     "runtime-main.js.map": "/static/js/runtime-main.dcd9e920.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.fe813fef.chunk.js": "/static/js/2.fe813fef.chunk.js",
-    "static/js/2.fe813fef.chunk.js.map": "/static/js/2.fe813fef.chunk.js.map",
+    "static/js/2.3b7c4aa6.chunk.js": "/static/js/2.3b7c4aa6.chunk.js",
+    "static/js/2.3b7c4aa6.chunk.js.map": "/static/js/2.3b7c4aa6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.66c5723d00eecd7ba35514823662b2fd.js": "/precache-manifest.66c5723d00eecd7ba35514823662b2fd.js",
+    "precache-manifest.bc2a3bbfd49a0af50baf88a932b6b60f.js": "/precache-manifest.bc2a3bbfd49a0af50baf88a932b6b60f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1cc7896b.chunk.css.map": "/static/css/main.1cc7896b.chunk.css.map",
-    "static/js/2.fe813fef.chunk.js.LICENSE.txt": "/static/js/2.fe813fef.chunk.js.LICENSE.txt",
-    "static/media/AT&T logo.png": "/static/media/AT&T logo.ea89f1e3.png",
-    "static/media/myImage.jpg": "/static/media/myImage.5d37d4df.jpg"
+    "static/css/main.e442a351.chunk.css.map": "/static/css/main.e442a351.chunk.css.map",
+    "static/js/2.3b7c4aa6.chunk.js.LICENSE.txt": "/static/js/2.3b7c4aa6.chunk.js.LICENSE.txt",
+    "static/media/covid19-tracker.PNG": "/static/media/covid19-tracker.05999ff0.PNG",
+    "static/media/minesweeper.PNG": "/static/media/minesweeper.042f5fb7.PNG",
+    "static/media/minos-labs.PNG": "/static/media/minos-labs.291ba9a8.PNG",
+    "static/media/myImage.jpg": "/static/media/myImage.5d37d4df.jpg",
+    "static/media/netflix-clone.PNG": "/static/media/netflix-clone.45dd6b94.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.dcd9e920.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.fe813fef.chunk.js",
-    "static/css/main.1cc7896b.chunk.css",
-    "static/js/main.a1bbf894.chunk.js"
+    "static/js/2.3b7c4aa6.chunk.js",
+    "static/css/main.e442a351.chunk.css",
+    "static/js/main.c7003d05.chunk.js"
   ]
 }

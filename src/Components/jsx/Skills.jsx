@@ -1,32 +1,84 @@
-import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react';
+import { FaLaptopCode, FaRegFileCode, FaRegWindowRestore } from 'react-icons/fa';
+import Card from 'react-bootstrap/Card';
 import '../css/Skills.css';
-import ATTLogo from '../img/AT&T logo.png';
 
-class Skills extends Component {
-	render() {
-		return (
-			<div className="experience">
-				<div className="experience--title">
-					<p>
-						What I'm good at{' '}
-						<span role="img" aria-label="laptop man emoji">
-							👨🏼‍💻
-						</span>
-					</p>
-				</div>
-
-                <div className="skills">
-                    <div className="skill">
-                        
-                    </div>
-                </div>
-
+function Skills() {
+	return (
+		<div className="experience">
+			<div className="experience--title">
+				<p>
+					What I'm good at{' '}
+					<span role="img" aria-label="laptop man emoji">
+						👨🏼‍💻
+					</span>
+				</p>
 			</div>
-		);
-	}
+
+			<div className="experience--skills">
+				<Card className="experience--skill">
+					<div style={{ height: '75px' }}></div>
+					<FaLaptopCode
+						className="experience--skill-img"
+						size={70}
+						color="#f36"
+					/>
+					<Card.Body>
+						<Card.Text className="experience--skill-title">
+							Languages
+						</Card.Text>
+						<Card.Text className="experience--skill-text">
+							<h5>HTML</h5>
+							<h5>CSS</h5>
+							<h5>JavaScript</h5>
+							<h5>Java</h5>
+							<h5>C</h5>
+						</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card className="experience--skill">
+					<div style={{ height: '75px' }}></div>
+					<FaRegFileCode
+						className="experience--skill-img"
+						size={70}
+						color="#f36"
+					/>
+					<Card.Body>
+						<Card.Text className="experience--skill-title">
+							Frameworks
+						</Card.Text>
+						<Card.Text className="experience--skill-text">
+							<h5>React</h5>
+							<h5>Node.js</h5>
+							<h5>Express</h5>
+							<h5>jQuery</h5>
+							<h5>Bootstrap</h5>
+						</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card className="experience--skill">
+					<div style={{ height: '75px' }}></div>
+					<FaRegWindowRestore
+						className="experience--skill-img"
+						size={70}
+						color="#f36"
+					/>
+					<Card.Body>
+						<Card.Text className="experience--skill-title">
+							Tools
+						</Card.Text>
+						<Card.Text className="experience--skill-text">
+							<h5>Git & GitHub</h5>
+							<h5>Postman</h5>
+							<h5>MongoDB</h5>
+							<h5>VS Code</h5>
+							<h5>Firebase</h5>
+						</Card.Text>
+					</Card.Body>
+				</Card>
+			</div>
+		</div>
+	);
 }
 
 export default Skills;

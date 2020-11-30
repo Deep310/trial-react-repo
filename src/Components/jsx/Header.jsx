@@ -57,7 +57,7 @@ function Header() {
 				<li>
 					<a href="#">
 						<Link
-							to="Hobbies"
+							to="projects"
 							spy={true}
 							smooth={true}
 							offset={-20}

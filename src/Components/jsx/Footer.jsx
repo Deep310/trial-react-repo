@@ -1,8 +1,5 @@
-import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { FaLinkedinIn, FaGithub, FaFacebookSquare } from 'react-icons/fa';
+import React from 'react';
+import { FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from 'react-icons';
 import '../css/Footer.css';
@@ -13,14 +10,17 @@ function Footer() {
 			<p className="contact--heading">Stay In Touch</p>
 
 			<p className="contact--text">
-				Thank you for visiting! I hope you got an insight into my skills,
-				experiences, and ambitions by viewing my website. If you have any
-				questions about my skills or experiences, have an idea to build a
-				side project together, or just want to say hi, feel free to message
-				me!
+				Thank you for visiting{' '}
+				<span role="img" aria-label="love emoji">
+					💖
+				</span>
+				! I hope you got an insight into my skills, experiences, and
+				ambitions by viewing my website. If you have any questions about my
+				skills or experiences, have an idea to build a side project
+				together, or just want to say hi, feel free to message me!
 			</p>
 
-			<div>
+			<div class="contact--links">
 				<a
 					href="https://github.com/Deep310"
 					target="_blank"

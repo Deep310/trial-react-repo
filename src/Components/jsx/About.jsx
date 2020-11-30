@@ -42,11 +42,11 @@ function About() {
 				>
 					Rutgers BITS
 				</a>
-				. Being involved with these clubs and working with other committee
-				members to create opportunities for students to learn and grow
-				outside of their classes, I have made many new friends, developed my
-				communication skills, and improved my technical skills as well!{' '}
-				<br />
+				. By being involved with these clubs and working with other
+				committee members to create opportunities for students to learn and
+				grow outside of their classes, I have made many new friends,
+				developed my communication skills, and improved my technical skills
+				as well! <br />
 				<br /> Currently, I am a Full-Stack Developer intern at an Ed-Tech
 				startup{' '}
 				<a
@@ -61,10 +61,10 @@ function About() {
 				accelerate the careers of recent Full-Stack and Cybersecurity
 				graduates by including Fortune 1000 leaders into the high impact
 				training program offered by Minos Labs. <br />
-				<br /> When I'm not trying to set the proper margin and padding of a
+				<br /> When I'm not trying to find the proper margin and padding of a
 				div, you can find me exercising to stay fit, trying to learn
 				ukulele, exploring new Christmas songs, having fun with my family,
-				or building fun side projects.{' '}
+				working on my internship, or building fun side projects.{' '}
 			</p>
 		</div>
 	);

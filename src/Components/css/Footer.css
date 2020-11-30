@@ -1,29 +1,31 @@
 .contact {
-    background-color: #4E3751;
-    padding: 0 8rem;
-    text-align: center;
+	background-color: #060d29;
+	color: #fefefe;
+	padding: 0 15vw;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
-.contact--heading{
-    color: #ecc7c0;
-    font-size: 3.5rem;
-    margin: 2.5rem 0 1rem 0; 
-    font-family: 'Lora', sans-serif;
+.contact--heading {
+	font-weight: 500;
+	padding: 50px 0;
+	margin: 0;
+	letter-spacing: 3px;
+	font-size: 45px;
 }
 
-.contact--text{
-    font-size: 1.33rem;
-    font-weight: 300;
-    color: white;
-    margin: 2rem 0;
+.contact--text {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
 }
 
-.react-icons{
-    margin: 20px 15px;
+.react-icons {
+	margin: 20px 15px;
 }
 
-@media screen and (max-width: 700px){
-    .contact{
-        padding: 0 1rem;
-    }
+@media screen and (max-width: 700px) {
+	.contact {
+		padding: 0 1rem;
+	}
 }

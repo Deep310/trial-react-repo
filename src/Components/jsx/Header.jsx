@@ -47,7 +47,7 @@ function Header() {
 							to="experience"
 							spy={true}
 							smooth={true}
-							offset={0}
+							offset={-60}
 							duration={700}
 						>
 							Skills

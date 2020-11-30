@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import '../css/MyIntro.css';

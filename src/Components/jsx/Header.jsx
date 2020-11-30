@@ -60,7 +60,7 @@ function Header() {
 							to="projects"
 							spy={true}
 							smooth={true}
-							offset={-20}
+							offset={-50}
 							duration={800}
 						>
 							Projects

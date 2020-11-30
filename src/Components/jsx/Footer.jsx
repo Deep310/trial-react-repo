@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IconContext } from 'react-icons';
 import '../css/Footer.css';
@@ -7,7 +7,12 @@ import '../css/Footer.css';
 function Footer() {
 	return (
 		<footer className="contact">
-			<p className="contact--heading">Stay In Touch</p>
+			<p className="contact--heading">
+				Stay In Touch
+				<span role="img" aria-label="handshake emoji">
+					🤝🏼
+				</span>
+			</p>
 
 			<p className="contact--text">
 				Thank you for visiting{' '}

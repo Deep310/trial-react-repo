@@ -25,7 +25,7 @@ const StyledButton = withStyles({
 function MyIntro() {
 	return (
 		<div className="intro">
-			<div style={{ height: '100px' }}></div>
+			<div className="intro--extra-div"></div>
 			<div className="intro--main">
 				<div className="intro--text">
 					<p>

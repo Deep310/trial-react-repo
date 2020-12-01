@@ -78,11 +78,11 @@ li {
 	right: 1.5vw;
 	position: fixed;
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 .hand-up:hover {
 	transform: translateY(-13px);
-	transition: transform 0.2s linear;
+	transition: transform 0.2s;
 	cursor: pointer;
 }

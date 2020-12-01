@@ -11,7 +11,7 @@ function Header() {
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
-			if (window.scrollY > 500) {
+			if (window.scrollY > 900) {
 				setShowHand(true);
 			} else {
 				setShowHand(false);

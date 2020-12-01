@@ -1,6 +1,7 @@
 .about {
 	background-color: #fff;
 	padding: 0 25vw;
+	margin: 0;
 }
 
 .about--heading {
@@ -18,7 +19,8 @@
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 32px;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
+	margin: 0;
 }
 
 #rutgers,
@@ -43,4 +45,28 @@
 
 #minosLabs:hover {
 	color: #1b1b1b;
+}
+
+@media screen and (max-width: 1200px) {
+	.about {
+		padding: 0 20vw;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.about {
+		padding: 0 15vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		padding: 0 10vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.about {
+		padding: 0 5vw;
+	}
 }

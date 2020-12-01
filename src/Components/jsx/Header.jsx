@@ -11,7 +11,7 @@ function Header() {
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
-			if (window.scrollY > 900) {
+			if (window.scrollY > 650) {
 				setShowHand(true);
 			} else {
 				setShowHand(false);
@@ -48,7 +48,7 @@ function Header() {
 							spy={true}
 							smooth={true}
 							offset={-60}
-							duration={700}
+							duration={750}
 						>
 							Skills
 						</Link>
@@ -61,7 +61,7 @@ function Header() {
 							spy={true}
 							smooth={true}
 							offset={-50}
-							duration={800}
+							duration={950}
 						>
 							Projects
 						</Link>
@@ -74,7 +74,7 @@ function Header() {
 							spy={true}
 							smooth={true}
 							offset={-20}
-							duration={900}
+							duration={1500}
 						>
 							Contact
 						</Link>

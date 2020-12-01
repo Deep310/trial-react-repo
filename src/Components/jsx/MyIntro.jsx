@@ -22,6 +22,7 @@ const StyledButton = withStyles({
 	},
 })(Button);
 
+
 function MyIntro() {
 	return (
 		<div className="intro">

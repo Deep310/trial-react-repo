@@ -86,3 +86,27 @@ li {
 	transition: transform 0.2s;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+	.header--navbar .nav-links {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.header--navbar .nav-links {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header--navbar .nav-links {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.header--navbar .nav-links {
+		display: none;
+	}
+}

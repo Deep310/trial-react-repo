@@ -1,7 +1,7 @@
 .experience {
 	background-color: #060d29;
 	color: #fefefe;
-	padding: 0 10vw;
+	padding: 0 7vw;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -15,41 +15,56 @@
 
 .experience--skills {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	padding-bottom: 150px;
 }
 
 .experience--skill {
-	width: 18rem;
+	width: 20rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	box-shadow: 0.2px 0.2px 100px rgba(255, 51, 102, 0.4);
 	border-bottom: 3px solid #f36 !important;
+	text-align: center;
+}
+
+.experience--skill-extraspace {
+	height: 75px;
 }
 
 .experience--skill-title {
 	color: #1b1b1b;
 	font-size: 25px;
 	font-weight: 700;
-	text-align: center;
 }
 
 .experience--skill-text {
 	color: #1b1b1b;
 	font-size: 20px;
 	font-weight: 400;
-	text-align: center;
-	padding: 20px 0 40px 0;
+	padding: 40px 0 40px 0;
 }
 
 @media screen and (max-width: 1200px) {
 	.experience--skill {
-		width: 15rem;
+		width: 18rem;
 	}
 	.experience {
-		padding: 0 5vw;
+		padding: 0 0;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.experience--skill {
+		width: 17rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.experience--skill {
+		width: 15rem;
 	}
 }
 
@@ -71,6 +86,12 @@
 	}
 	.experience--skill {
 		width: 25rem;
-		margin-bottom: 30px;
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.experience--skill {
+		width: 80vw;
 	}
 }

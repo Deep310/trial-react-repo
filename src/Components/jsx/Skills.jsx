@@ -17,7 +17,7 @@ function Skills() {
 
 			<div className="experience--skills">
 				<Card className="experience--skill">
-					<div style={{ height: '75px' }}></div>
+					<div className="experience--skill-extraspace"></div>
 					<FaLaptopCode
 						className="experience--skill-img"
 						size={70}
@@ -37,7 +37,7 @@ function Skills() {
 					</Card.Body>
 				</Card>
 				<Card className="experience--skill">
-					<div style={{ height: '75px' }}></div>
+					<div className="experience--skill-extraspace"></div>
 					<FaRegFileCode
 						className="experience--skill-img"
 						size={70}
@@ -57,7 +57,7 @@ function Skills() {
 					</Card.Body>
 				</Card>
 				<Card className="experience--skill">
-					<div style={{ height: '75px' }}></div>
+					<div className="experience--skill-extraspace"></div>
 					<FaRegWindowRestore
 						className="experience--skill-img"
 						size={70}
